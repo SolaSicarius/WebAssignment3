@@ -1,11 +1,20 @@
 <template>
-  <img class="logo" alt="MovieBox logo" src="./assets/MovieBox_Logo_No_Background.png">
+  <header>
+    <br>
+    <div class="columns is-centered">
+      <img style="width: 100px" alt="MovieBox logo" src="./assets/MovieBox_Logo_No_Background.png">
+    </div>
+  </header>
   <SignUp />
-  <div class="register">
-    <input type="text" placeholder="Enter Name" />
-    <input type="text" placeholder="Enter Email" />
-    <input type="password" placeholder="Enter Password" />
-  <button>Sign Up</button>
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column has-text-centered is-6-fullhd is-6-desktop is-6-tablet is-12-mobile">
+        <input class="input is-primary is-normal" type="text" placeholder="Enter Name" />
+        <input class="input is-primary is-normal" type="text" placeholder="Enter Email" />
+        <input class="input is-primary is-normal" type="password" placeholder="Enter Password" />
+        <button class="button is-primary is-fullwidth is-normal">Sign Up</button>
+      </div>
+    </div>
 </div>
 </template>
 
@@ -20,35 +29,5 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 
-.logo{
-  width:100px;
-}
-
-.register input{
-  width: 300px;
-  height: 40px;
-  padding-left: 20px;
-  display: block;
-  margin-left: auto;
-  margin-bottom: 30px;
-  margin-right: auto;
-  border: 1px solid lightgray;
-}
-
-.register button{
-  width: 320px;
-  height: 40px;
-  border: 1px solid lightgray;
-  background: lightgray;
-  cursor: pointer;
-}
 </style>
