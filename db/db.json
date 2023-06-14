@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Nick",
+      "email": "nicksoo@gmail.com",
+      "password": "abc123"
+    },
+    {
+      "name": "Josh",
+      "email": "josh@test.com",
+      "password": "test",
+      "id": "s1jW_fT"
+    },
+    {
+      "name": "Josh",
+      "email": "josh@test.com",
+      "password": "test",
+      "id": "hXsC8Mi"
+    },
+    {
+      "name": "Peter",
+      "email": "peter@test.com",
+      "password": "test",
+      "id": "OjwhfQF"
+    }
+  ]
+}
