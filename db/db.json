@@ -24,5 +24,10 @@
       "password": "test",
       "id": "OjwhfQF"
     }
-  ]
+  ],
+  "users": {
+    "name": "Adam",
+    "email": "adam@test",
+    "password": "test123"
+  }
 }
