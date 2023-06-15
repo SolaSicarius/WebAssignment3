@@ -1,4 +1,7 @@
 {
+  "comment": {
+    "_comment": "db>json-server --watch db.json"
+  },
   "user": [
     {
       "id": "1",
@@ -25,9 +28,42 @@
       "id": "OjwhfQF"
     }
   ],
-  "users": {
-    "name": "Adam",
-    "email": "adam@test",
-    "password": "test123"
-  }
+  "users": [
+    {
+      "name": "Adam",
+      "email": "adam@test",
+      "password": "asd123",
+      "id": "1"
+    },
+    {
+      "name": "Josh",
+      "email": "josh@test",
+      "password": "asd123",
+      "id": "2"
+    },
+    {
+      "name": "Alex",
+      "email": "alex@test",
+      "password": "asd123",
+      "id": "3"
+    },
+    {
+      "name": "Nick",
+      "email": "nick@test",
+      "password": "asd123",
+      "id": "4"
+    },
+    {
+      "name": "Bob",
+      "email": "bob@test",
+      "password": "zxc123",
+      "id": "zm8t124"
+    },
+    {
+      "name": "Peter",
+      "email": "peter@test",
+      "password": "qwe123",
+      "id": "vpoIJh8"
+    }
+  ]
 }
