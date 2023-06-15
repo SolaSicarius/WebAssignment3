@@ -64,6 +64,12 @@
       "email": "peter@test",
       "password": "qwe123",
       "id": "vpoIJh8"
+    },
+    {
+      "name": "Mary",
+      "email": "mary@test",
+      "password": "qwe123",
+      "id": "KnTMKtf"
     }
   ]
 }
