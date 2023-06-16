@@ -5,11 +5,11 @@
       <img style="width: 100px height: 100px" alt="MovieBox logo" src="../assets/MovieBox_Logo_No_Background.png">
     </a>
 
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+    <!--<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
-    </a>
+    </a>-->
   </div>
 
   <div id="navbarBasicExample" class="navbar-menu">
@@ -24,8 +24,8 @@
         </a>
 
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="#">Add Movie</a>
-          <a class="navbar-item" href="#">Update Movie</a>
+          <a class="navbar-item" href="/add-movie">Add Movie</a>
+          <a class="navbar-item" href="/update-movie">Update Movie</a>
           <hr class="navbar-divider">
           <a class="navbar-item" href="#">Report an issue</a>
         </div>
@@ -38,9 +38,7 @@
           <a class="button is-primary">
             <strong>Sign up</strong>
           </a>
-          <a class="button is-light">
-            Log Out
-          </a>
+          <a class="button is-light" v-on:click="logout" href="#">Log Out</a>
         </div>
       </div>
     </div>
@@ -51,11 +49,11 @@
 <script>
 export default {
         name: "HeaderArea",
-        mounted() {
-        let user = localStorage.getItem('user-info');
-        if(user)
+        methods: {
+                logout()
                 {
-                        this.$router.push({name: 'HomePage'})
+                        localStorage.clear();
+                        this.$router.push({name: 'LogIn'})
                 }
         }
 }

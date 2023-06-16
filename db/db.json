@@ -4,9 +4,9 @@
   },
   "users": [
     {
-      "name": "Adam",
-      "email": "adam@test",
-      "password": "asd123",
+      "name": "Test",
+      "email": "test",
+      "password": "test",
       "id": "1"
     },
     {
