@@ -1,19 +1,23 @@
 <template>
   <Header />
   <h1>Hello {{ name }}, Welcome to the Home Page</h1>
-  <table border="1">
-  <tr>
-  <td>id</td>
-  <td>name</td>
-  <td>description</td>
-  <td>release date</td>
-  </tr>
-    <tr v-for="item in movies" :key="item.id">
-      <td>{{ item.id }}</td>
-      <td>{{ item.name }}</td>
-      <td>{{ item.description }}</td>
-      <td>{{ item.release }}</td>
-    </tr>
+  <table class="table">
+    <thead>
+      <tr>
+        <td>id</td>
+        <td>name</td>
+        <td>description</td>
+        <td>release date</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="item in movies" :key="item.id">
+        <td>{{ item.id }}</td>
+        <td>{{ item.name }}</td>
+        <td>{{ item.description }}</td>
+        <td>{{ item.release }}</td>
+      </tr>
+    </tbody>
   </table>
 </template>
 
