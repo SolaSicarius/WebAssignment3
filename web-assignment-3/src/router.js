@@ -1,6 +1,6 @@
 import Home from './components/Home.vue'
 import SignUp from './components/SignUp.vue'
-import {createRouter, createWebHistory} from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import Login from './components/Login.vue'
 import AddMovie from './components/AddMovie.vue'
 import UpdateMovie from './components/UpdateMovie.vue'
@@ -9,32 +9,32 @@ const routes = [
         {
                 name: 'HomePage',
                 component: Home,
-                path:'/'
+                path: '/'
         },
         {
                 name: 'SignUp',
                 component: SignUp,
-                path:'/sign-up'
+                path: '/sign-up'
         },
         {
                 name: 'LogIn',
                 component: Login,
-                path:'/login'
+                path: '/login'
         },
         {
                 name: 'AddMovie',
                 component: AddMovie,
-                path:'/add-movie'
+                path: '/add-movie'
         },
         {
                 name: 'UpdateMovie',
                 component: UpdateMovie,
-                path:'/update-movie'
+                path: '/update-movie'
         },
 ];
 
 const router = createRouter({
-        history:createWebHistory(),
+        history: createWebHistory(),
         routes
 });
 

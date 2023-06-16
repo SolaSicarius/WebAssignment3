@@ -7,43 +7,63 @@
       "name": "Test",
       "email": "test",
       "password": "test",
-      "id": "1"
+      "id": "0"
     },
     {
       "name": "Josh",
       "email": "josh@test",
       "password": "asd123",
-      "id": "2"
+      "id": "1"
     },
     {
       "name": "Alex",
       "email": "alex@test",
       "password": "asd123",
-      "id": "3"
+      "id": "2"
     },
     {
       "name": "Nick",
       "email": "nick@test",
       "password": "asd123",
-      "id": "4"
+      "id": "3"
     },
     {
       "name": "Bob",
       "email": "bob@test",
       "password": "zxc123",
-      "id": "zm8t124"
+      "id": "4"
     },
     {
       "name": "Peter",
       "email": "peter@test",
       "password": "qwe123",
-      "id": "vpoIJh8"
+      "id": "5"
     },
     {
       "name": "Mary",
       "email": "mary@test",
       "password": "qwe123",
-      "id": "KnTMKtf"
+      "id": "6"
+    }
+  ],
+  "movies": [
+    {
+      "id":"0",
+      "name":"Batman",
+      "description": "Lorem ipsum",
+      "release":"15/06/2026"
+    },
+    {
+      "id":"1",
+      "name":"Superman",
+      "description": "Lorem ipsum",
+      "release":"03/11/2028"
+    },
+    {
+      "id":"2",
+      "name":"Spiderman",
+      "description": "Lorem ipsum",
+      "release":"20/09/2029"
     }
   ]
 }
