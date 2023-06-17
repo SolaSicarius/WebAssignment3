@@ -24,11 +24,11 @@
               <td>{{ item.release }}</td>
               <td>
                 <router-link :to="'/update-movie/' + item.id">
-                  <button>
+                  <button class="button is-fullwidth is-normal" >
                     <strong>Update Details</strong>
                   </button>
                 </router-link>
-                <button v-on:click="deleteMovie(item.id)">
+                <button class="button is-danger is-fullwidth is-normal" v-on:click="deleteMovie(item.id)">
                   <strong>Delete Movie</strong>
                 </button>
               </td>
