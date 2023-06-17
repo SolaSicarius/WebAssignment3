@@ -1,8 +1,8 @@
 <template>
   <Header />
-  <br>
+  <br />
   <h1>Hello {{ name }}, Welcome to the Home Page</h1>
-  <br>
+  <br />
   <table class="table">
     <thead>
       <tr>
@@ -17,7 +17,16 @@
         <td>{{ item.title }}</td>
         <td>{{ item.description }}</td>
         <td>{{ item.release }}</td>
-        <td><router-link :to="'/update-movie/' + item.id">Update Details</router-link></td>
+        <td>
+          <router-link :to="'/update-movie/' + item.id">
+            <button>
+              <strong>Update Details</strong>
+            </button>
+          </router-link>
+          <button v-on:click="deleteMovie(item.id)">
+            <strong>Delete Movie</strong>
+          </button>
+        </td>
       </tr>
     </tbody>
   </table>
@@ -37,15 +46,29 @@ export default {
   components: {
     Header,
   },
-  async mounted() {
-    let user = localStorage.getItem("user-info");
-    this.name = JSON.parse(user).name;
-    if (!user) {
-      this.$router.push({ name: "SignUp" });
+  methods: {
+    async deleteMovie(id)
+    {
+      //console.warn(id)
+      let result = await axios.delete("http://localhost:3000/movies/" + id)
+      if(result.status==200)
+      {
+        this.loadData();
+      }
+    },
+    async loadData()
+    {
+      let user = localStorage.getItem("user-info");
+      this.name = JSON.parse(user).name;
+      if (!user) {
+        this.$router.push({ name: "SignUp" });
+      }
+      let result = await axios.get("http://localhost:3000/movies");
+      this.movies = result.data;
     }
-    let result = await axios.get("http://localhost:3000/movies");
-    //console.warn(result);
-    this.movies = result.data;
+  },
+  async mounted() {
+    this.loadData();
   },
 };
 </script>

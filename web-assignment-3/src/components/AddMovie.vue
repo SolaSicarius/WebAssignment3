@@ -17,7 +17,7 @@
           class="input is-primary is-normal"
           type="text"
           name="description"
-          v-model="Movmovieies.description"
+          v-model="movie.description"
           placeholder="Enter Description"
         />
         <input
