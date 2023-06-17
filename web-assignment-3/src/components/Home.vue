@@ -9,6 +9,7 @@
         <td>Movie Title</td>
         <td>Description</td>
         <td>Release Date</td>
+        <td>Actions</td>
       </tr>
     </thead>
     <tbody>
@@ -16,6 +17,7 @@
         <td>{{ item.title }}</td>
         <td>{{ item.description }}</td>
         <td>{{ item.release }}</td>
+        <td><router-link :to="'/update-movie/' + item.id">Update Details</router-link></td>
       </tr>
     </tbody>
   </table>

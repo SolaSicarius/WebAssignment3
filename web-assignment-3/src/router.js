@@ -29,7 +29,7 @@ const routes = [
         {
                 name: 'UpdateMovie',
                 component: UpdateMovie,
-                path: '/update-movie'
+                path: '/update-movie/:id'
         },
 ];
 

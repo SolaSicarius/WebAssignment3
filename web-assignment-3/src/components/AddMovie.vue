@@ -10,21 +10,21 @@
           class="input is-primary is-normal"
           type="text"
           name="title"
-          v-model="Movies.title"
+          v-model="movie.title"
           placeholder="Enter Movie Title"
         />
         <input
           class="input is-primary is-normal"
           type="text"
           name="description"
-          v-model="Movies.description"
+          v-model="Movmovieies.description"
           placeholder="Enter Description"
         />
         <input
           class="input is-primary is-normal"
           type="text"
           name="release"
-          v-model="Movies.release"
+          v-model="movie.release"
           placeholder="Enter Release Date"
         />
         <button class="button is-primary is-fullwidth is-normal" v-on:click="addMovie">
@@ -45,20 +45,20 @@ export default {
   },
   data() {
     return {
-      Movies: {
-        title: "",
-        description: "",
-        release: "",
+      movie: {
+        title: '',
+        description: '',
+        release: '',
       },
     };
   },
   methods: {
     async addMovie() {
-      //console.warn(this.Movies);
+      //console.warn(this.movie);
       const result = await axios.post("http://localhost:3000/movies", {
-        title: this.Movies.title,
-        description: this.Movies.description,
-        release: this.Movies.release,
+        title: this.movie.title,
+        description: this.movie.description,
+        release: this.movie.release,
       });
      //console.warn("result", result);
      if(result.status==201)

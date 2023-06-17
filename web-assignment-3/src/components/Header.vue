@@ -20,7 +20,7 @@
       <div class="navbar-start">
         <a class="navbar-item" href="/">Home</a>
         <a class="navbar-item" href="/add-movie">Add Movie</a>
-        <a class="navbar-item" href="/update-movie">Update Movie</a>
+        <!--<a class="navbar-item" href="/update-movie">Update Movie</a>-->
       </div>
     </div>
 
