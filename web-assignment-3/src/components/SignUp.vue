@@ -24,9 +24,11 @@
           placeholder="Enter Password"
         />
         <button class="button is-primary is-fullwidth is-normal" v-on:click="signUp">
-          Sign Up
+          <strong>Sign Up</strong>
         </button>
-        <router-link to="/login">Login</router-link>
+        <router-link class="button is-light is-fullwidth is-normal" to="/login">
+          <strong>Log In</strong>
+        </router-link>
       </div>
     </div>
   </div>

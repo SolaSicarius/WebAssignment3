@@ -3,7 +3,7 @@
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
         <img
-          style="width: 100px height: 100px"
+          width="auto"
           alt="MovieBox logo"
           src="../assets/MovieBox_Logo_No_Background.png"
         />
@@ -16,7 +16,7 @@
     </a>-->
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-menu">
       <div class="navbar-start">
         <a class="navbar-item" href="/">Home</a>
         <a class="navbar-item" href="/add-movie">Add Movie</a>
@@ -27,9 +27,6 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
           <a class="button is-light" v-on:click="logout" href="#">Log Out</a>
         </div>
       </div>

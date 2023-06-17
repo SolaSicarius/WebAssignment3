@@ -1,18 +1,18 @@
 <template>
   <Header />
+  <br>
   <h1>Hello {{ name }}, Welcome to the Home Page</h1>
+  <br>
   <table class="table">
     <thead>
       <tr>
-        <td>id</td>
-        <td>name</td>
-        <td>description</td>
-        <td>release date</td>
+        <td>Movie Name</td>
+        <td>Description</td>
+        <td>Release Date</td>
       </tr>
     </thead>
     <tbody>
       <tr v-for="item in movies" :key="item.id">
-        <td>{{ item.id }}</td>
         <td>{{ item.name }}</td>
         <td>{{ item.description }}</td>
         <td>{{ item.release }}</td>
