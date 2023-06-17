@@ -54,13 +54,11 @@ export default {
   },
   methods: {
     async addMovie() {
-      //console.warn(this.movie);
       const result = await axios.post("http://localhost:3000/movies", {
         title: this.movie.title,
         description: this.movie.description,
         release: this.movie.release,
       });
-     //console.warn("result", result);
      if(result.status==201)
      {
       this.$router.push({name: 'HomePage'});

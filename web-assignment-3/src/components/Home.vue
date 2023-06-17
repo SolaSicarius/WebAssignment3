@@ -56,7 +56,6 @@ export default {
   },
   methods: {
     async deleteMovie(id) {
-      //console.warn(id)
       let result = await axios.delete("http://localhost:3000/movies/" + id);
       if (result.status == 200) {
         this.loadData();

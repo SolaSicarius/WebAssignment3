@@ -34,9 +34,6 @@
   </div>
 </template>
 <script>
-/*export default {
-        name :'SignUp'
-}*/
 
 import axios from "axios";
 export default {
@@ -50,7 +47,6 @@ export default {
   },
   methods: {
     async signUp() {
-      //console.warn("signup",this.name,this.email,this.password)
       let result = await axios.post("http://localhost:3000/users", {
         name: this.name,
         email: this.email,
@@ -59,7 +55,6 @@ export default {
 
       console.warn(result);
       if (result.status == 201) {
-        //alert("sign up complete");
         localStorage.setItem("user-info", JSON.stringify(result.data));
         this.$router.push({ name: "HomePage" });
       }
