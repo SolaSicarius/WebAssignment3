@@ -48,52 +48,52 @@
   ],
   "movies": [
     {
-      "id":"0",
-      "title":"Kung Fu Panda 4",
+      "id": "0",
+      "title": "Kung Fu Panda 4",
       "description": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior. As such, he will train a new kung fu practitioner for the spot and will encounter a villain called the Chameleon who conjures villains from the past.",
-      "release":"March 8, 2024"
+      "release": "March 8, 2024"
     },
     {
-      "id":"1",
-      "title":"Spider-Man: Beyond The Spider-Verse",
+      "id": "1",
+      "title": "Spider-Man: Beyond The Spider-Verse",
       "description": "After leaving off from Spider-Man: Across the Spider-Verse, the story continues.",
-      "release":"March 29, 2024"
+      "release": "March 29, 2024"
     },
     {
-      "id":"2",
-      "title":"Captain America: Brave New World",
+      "id": "2",
+      "title": "Captain America: Brave New World",
       "description": "Fourth movie in the Captain America franchise.",
-      "release":"May 3, 2024"
+      "release": "May 3, 2024"
     },
     {
-      "id":"3",
-      "title":"Kingdom of the Planet of the Apes",
+      "id": "3",
+      "title": "Kingdom of the Planet of the Apes",
       "description": "The new Apes movie is set many years after the conclusion of 2017's War for the Planet of the Apes. Many apes societies have grown from when the Moses-like Caesar brought his people to an oasis, while humans have been reduced to a feral-like existence. Some ape groups have never heard of Caesar, while others have contorted his teaching to build burgeoning empires. In this setting, one ape leader begins to enslave other groups to find human technology, while another ape, who watched his clan be taken, embarks on a journey to find freedom. A young human woman becomes key to the latter's quest, although she has plans of her own.",
-      "release":"March 29, 2024"
+      "release": "March 29, 2024"
     },
     {
-      "id":"4",
-      "title":"Deadpool 3",
+      "id": "4",
+      "title": "Deadpool 3",
       "description": "A weary Wolverine finds himself recovering from his injuries when he comes across a loudmouth Deadpool who has time travelled forward to heal his greatest pal in the hopes to befriend the wild beast and to team up to take down a foe they both have in common.",
-      "release":"November 8, 2024"
+      "release": "November 8, 2024"
     },
     {
-      "id":"5",
-      "title":"Avatar 3",
+      "id": "5",
+      "title": "Avatar 3",
       "description": "Sequel of Avatar: The Way of Water (2022).",
-      "release":"December 20, 2024"
+      "release": "December 20, 2024"
     },
     {
-      "id":"6",
-      "title":"Fantastic Four",
+      "id": "6",
+      "title": "Fantastic Four",
       "description": "One of Marvel's most iconic families makes it back to the big screen, the Fantastic Four.",
-      "release":"February 14, 2025"
+      "release": "February 14, 2025"
     },
     {
-      "id":"7",
-      "title":"Avengers: The Kang Dynasty",
+      "id": "7",
+      "title": "Avengers: The Kang Dynasty",
       "description": "Plot under wraps.",
-      "release":"May 2, 2025"
+      "release": "May 2, 2025"
     }
   ]
 }

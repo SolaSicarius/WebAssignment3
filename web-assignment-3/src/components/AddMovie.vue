@@ -37,6 +37,7 @@
 
 <script>
 import Header from "./Header.vue";
+import axios from "axios"
 export default {
   name: "AddMovie",
   components: {
@@ -52,8 +53,18 @@ export default {
     };
   },
   methods: {
-    addMovie() {
-      console.warn(this.Movies);
+    async addMovie() {
+      //console.warn(this.Movies);
+      const result = await axios.post("http://localhost:3000/movies", {
+        title: this.Movies.title,
+        description: this.Movies.description,
+        release: this.Movies.release,
+      });
+     //console.warn("result", result);
+     if(result.status==201)
+     {
+      this.$router.push({name: 'HomePage'});
+     }
     },
   },
   mounted() {
