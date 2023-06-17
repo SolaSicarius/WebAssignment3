@@ -6,14 +6,14 @@
   <table class="table">
     <thead>
       <tr>
-        <td>Movie Name</td>
+        <td>Movie Title</td>
         <td>Description</td>
         <td>Release Date</td>
       </tr>
     </thead>
     <tbody>
       <tr v-for="item in movies" :key="item.id">
-        <td>{{ item.name }}</td>
+        <td>{{ item.title }}</td>
         <td>{{ item.description }}</td>
         <td>{{ item.release }}</td>
       </tr>
