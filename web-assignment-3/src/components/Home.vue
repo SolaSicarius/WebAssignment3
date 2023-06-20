@@ -1,13 +1,14 @@
 <template>
   <Header />
-  <br />
-  <h1>Hello {{ name }}, Welcome to the Home Page</h1>
-  <br />
-  <div class="container">
+    <div class="container">
     <div class="columns is-centered">
       <div
         class="column has-text-centered is-12-fullhd is-12-desktop is-12-tablet is-12-mobile"
       >
+        <br />
+          <h1 class="title">Hello {{ name }}</h1>
+          <h1 class="title">Welcome to MovieBox</h1>
+        <br />
         <table class="table">
           <thead>
             <tr>

@@ -1,11 +1,12 @@
 <template>
   <Header />
-  <h1>Hello user, Welcome to the Add Movie Page</h1>
   <div class="container">
     <div class="columns is-centered">
       <div
         class="column has-text-centered is-6-fullhd is-6-desktop is-6-tablet is-12-mobile"
       >
+        <br/>
+        <h1 class="title">Add New Movie</h1>
         <input
           class="input is-primary is-normal"
           type="text"

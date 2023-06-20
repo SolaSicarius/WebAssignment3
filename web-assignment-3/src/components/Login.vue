@@ -1,10 +1,11 @@
 <template>
-  <h1>Login Page</h1>
   <div class="container">
     <div class="columns is-centered">
       <div
         class="column has-text-centered is-6-fullhd is-6-desktop is-6-tablet is-12-mobile"
       >
+        <br/>
+        <h1 class="title">Log In</h1>
         <input
           class="input is-primary is-normal"
           type="text"
@@ -20,7 +21,10 @@
         <button class="button is-primary is-fullwidth is-normal" v-on:click="login">
           <strong>Log In</strong>
         </button>
-        <router-link class="button is-light is-fullwidth is-normal" to="/sign-up">
+        <br/>
+        <br/>
+        <h1 class="subtitle">Haven't Signed Up?</h1>
+        <router-link class="button is-primary is-fullwidth is-normal" to="/sign-up">
           <strong>Sign up</strong>
         </router-link>
       </div>

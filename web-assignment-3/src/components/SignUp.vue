@@ -1,10 +1,11 @@
 <template>
-  <h1>Sign Up Page</h1>
   <div class="container">
     <div class="columns is-centered">
       <div
         class="column has-text-centered is-6-fullhd is-6-desktop is-6-tablet is-12-mobile"
       >
+        <br/>
+        <h1 class="title">Sign Up</h1>
         <input
           class="input is-primary is-normal"
           type="text"
@@ -26,7 +27,10 @@
         <button class="button is-primary is-fullwidth is-normal" v-on:click="signUp">
           <strong>Sign Up</strong>
         </button>
-        <router-link class="button is-light is-fullwidth is-normal" to="/login">
+        <br/>
+        <br/>
+        <h1 class="subtitle">Already Signed Up?</h1>
+        <router-link class="button is-primary is-fullwidth is-normal" to="/login">
           <strong>Log In</strong>
         </router-link>
       </div>
