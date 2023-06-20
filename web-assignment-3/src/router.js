@@ -4,6 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Login from './components/Login.vue'
 import AddMovie from './components/AddMovie.vue'
 import UpdateMovie from './components/UpdateMovie.vue'
+import UnderTheDome from './components/UnderTheDome.vue'
 
 const routes = [
         {
@@ -30,6 +31,11 @@ const routes = [
                 name: 'UpdateMovie',
                 component: UpdateMovie,
                 path: '/update-movie/:id'
+        },
+        {
+                name: 'UnderTheDome',
+                component: UnderTheDome,
+                path: '/under-the-dome'
         },
 ];
 

@@ -20,6 +20,7 @@
       <div class="navbar-start">
         <a class="navbar-item" href="/">Home</a>
         <a class="navbar-item" href="/add-movie">Add Movie</a>
+        <a class="navbar-item" href="/under-the-dome">Under The Dome Episode List</a>
       </div>
       <div class="navbar-end">
         <div class="navbar-item">
